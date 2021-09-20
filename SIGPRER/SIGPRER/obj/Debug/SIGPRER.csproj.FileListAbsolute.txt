@@ -1,0 +1,13 @@
+c:\users\luis\documents\visual studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\SIGPRER.exe.config
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\SIGPRER.exe
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\SIGPRER.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\Iesi.Collections.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\NHibernate.dll
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\Iesi.Collections.xml
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\bin\Debug\NHibernate.xml
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.Properties.Resources.resources
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.view.ficha.FrmInsert.resources
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.csproj.GenerateResource.Cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.exe
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\SIGPRER\SIGPRER\obj\Debug\SIGPRER.pdb

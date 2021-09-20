@@ -1,0 +1,9 @@
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\bin\Debug\ConfServidor.exe.config
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\bin\Debug\ConfServidor.exe
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\bin\Debug\ConfServidor.pdb
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.csprojResolveAssemblyReference.cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.Form1.resources
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.Properties.Resources.resources
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.csproj.GenerateResource.Cache
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.exe
+C:\Users\Luis\Documents\Visual Studio 2013\Projects\Avaluos\ConfServidor\obj\Debug\ConfServidor.pdb

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A66C105-6BC4-428D-BF37-F71C4FA86F39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIGPRER</RootNamespace>
+    <AssemblyName>SIGPRER</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SIGPRER.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.1.1.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection\Conexion.cs" />
+    <Compile Include="controller\division_politica\CodigoDB.cs" />
+    <Compile Include="controller\factores\FactorDB.cs" />
+    <Compile Include="controller\predios\PredioDB.cs" />
+    <Compile Include="controller\user\UserDB.cs" />
+    <Compile Include="model\dato_predial\Avaluo.cs" />
+    <Compile Include="model\dato_predial\Cob_Vegetal.cs" />
+    <Compile Include="model\dato_predial\Desc_Construc.cs" />
+    <Compile Include="model\dato_predial\Localizacion.cs" />
+    <Compile Include="model\dato_predial\Mat_Edificio.cs" />
+    <Compile Include="model\dato_predial\Carac_Fisica.cs" />
+    <Compile Include="model\codigo_provincial\Codigo.cs" />
+    <Compile Include="model\dato_predial\Clase_Agrol.cs" />
+    <Compile Include="model\dato_predial\Ficha.cs" />
+    <Compile Include="model\dato_predial\Mejoras_Predio.cs" />
+    <Compile Include="model\dato_predial\Lin_Ref.cs" />
+    <Compile Include="model\dato_predial\Maquinaria.cs" />
+    <Compile Include="model\dato_predial\Propietario.cs" />
+    <Compile Include="model\dato_predial\Relieve.cs" />
+    <Compile Include="model\dato_predial\Responsable.cs" />
+    <Compile Include="model\dato_predial\Semoviente.cs" />
+    <Compile Include="model\dato_predial\Servicio_Via.cs" />
+    <Compile Include="model\dato_predial\Serv_Predio.cs" />
+    <Compile Include="model\dato_predial\Info_Legal.cs" />
+    <Compile Include="model\dato_predial\Uso_Suelo.cs" />
+    <Compile Include="model\factores\Factor.cs" />
+    <Compile Include="model\factores\Factor_Valor.cs" />
+    <Compile Include="model\factores\Valor_Impuesto.cs" />
+    <Compile Include="model\factores\Valor_Mejora.cs" />
+    <Compile Include="model\user\Bitacora.cs" />
+    <Compile Include="model\user\Persona.cs" />
+    <Compile Include="model\user\Usuario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Util.cs" />
+    <Compile Include="view\factor\FrmAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\factor\FrmAutorizacion.Designer.cs">
+      <DependentUpon>FrmAutorizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\factor\FrmModifFact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\factor\FrmModifFact.Designer.cs">
+      <DependentUpon>FrmModifFact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmAsignarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmAsignarClave.Designer.cs">
+      <DependentUpon>FrmAsignarClave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmAvaluo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmAvaluo.Designer.cs">
+      <DependentUpon>FrmAvaluo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmBusqueda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmBusqueda.Designer.cs">
+      <DependentUpon>FrmBusqueda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmConsultar.Designer.cs">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmInsert.Designer.cs">
+      <DependentUpon>FrmInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ficha\FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\ficha\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\user\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\user\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="view\factor\FrmAutorizacion.resx">
+      <DependentUpon>FrmAutorizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\factor\FrmModifFact.resx">
+      <DependentUpon>FrmModifFact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmAsignarClave.resx">
+      <DependentUpon>FrmAsignarClave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmAvaluo.resx">
+      <DependentUpon>FrmAvaluo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmBusqueda.resx">
+      <DependentUpon>FrmBusqueda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmConsultar.resx">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmInsert.resx">
+      <DependentUpon>FrmInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ficha\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\user\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

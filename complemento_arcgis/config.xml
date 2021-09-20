@@ -1,0 +1,20 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Catastros</Name><AddInID>{dd39e69b-d356-4e18-b437-c6a1371ec923}</AddInID><Description>Manejo de Predios</Description><Version>1</Version><Image /><Author>GISDATUM</Author><Company>GISDATUM</Company><Date>02/06/2017</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="complemento_arcgis_addin.py" namespace="complemento_arcgis_addin"><ArcMap>
+    <Commands>
+        <Button caption="Manejo Datos del Predios : " category="Catastros" class="ButtonClass16" id="complemento_arcgis_addin.button" image="" message="" tip=""><Help heading="" /></Button>
+        <Tool caption="Inserci&#243;n Datos" category="Catastros" class="Insert_data" id="complemento_arcgis_addin.tool" image="" message="Registra los datos del predio en la base de datos" tip="Insertar"><Help heading="" /></Tool>
+        <Tool caption="Consultar Datos" category="Catastros" class="Consult_data" id="complemento_arcgis_addin.tool_1" image="" message="Obtiene los datos registrados del predio seleccionado" tip="Consultar"><Help heading="" /></Tool>
+        <Tool caption="Asignar Codigo" category="Catastros" class="AsignarCod" id="complemento_arcgis_addin.tool_2" image="" message="Asigna la clave catastral al predio seleccionado" tip="Asignar Codigo"><Help heading="" /></Tool>
+        <Button caption="Busqueda del Predio:" category="Catastros" class="ButtonClass26" id="complemento_arcgis_addin.button_1" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Ingresar C&#243;digo" category="Catastros" class="IngresarCodigo" id="complemento_arcgis_addin.btnIngresarCodigo" image="" message="B&#250;squeda del predio en el mapa dado el c&#243;digo catastral" tip="Ingresar C&#243;digo Catastral"><Help heading="B&#250;squeda del predio en el mapa dado el c&#243;digo catastral">B&#250;squeda del predio en el mapa dado el c&#243;digo catastral</Help></Button>
+        <Button caption="Buscar Predio" category="Catastros" class="BuscarPredio" id="complemento_arcgis_addin.btnBuscarPredio" image="" message="Busca el predio en el mapa" tip="Busca el predio en el mapa"><Help heading="Busca el predio en el mapa">Busca el predio en el mapa</Help></Button>
+        <Button caption="Mostrar Valor Suelo:" category="Catastros" class="ButtonClass38" id="complemento_arcgis_addin.button_2" image="" message="" tip=""><Help heading="" /></Button>
+        <Tool caption="Valor" category="Catastros" class="ToolClass40" id="complemento_arcgis_addin.tool_3" image="" message="Muestra el valor del suelo" tip="Muestra el valor del suelo"><Help heading="Muestra el valor del suelo">Muestra el valor del suelo</Help></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Catastros" category="Catastros" id="complemento_arcgis_addin.toolbar" showInitially="true"><Items><Button refID="complemento_arcgis_addin.button" /><Tool refID="complemento_arcgis_addin.tool" /><Tool refID="complemento_arcgis_addin.tool_1" /><Tool refID="complemento_arcgis_addin.tool_2" /><Button refID="complemento_arcgis_addin.button_1" /><Button refID="complemento_arcgis_addin.btnIngresarCodigo" /><Button refID="complemento_arcgis_addin.btnBuscarPredio" /><Button refID="complemento_arcgis_addin.button_2" /><Tool refID="complemento_arcgis_addin.tool_3" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
